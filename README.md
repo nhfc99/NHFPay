@@ -10,6 +10,7 @@
 <h2>使用方法</h2>
 
 1.先进行初始化操作，位置放于自己经常放项目启动初始化的地方，比如APPDelegate.m中
+
     //初始化支付
     [[AlipayObject getInstancetype] initByAppScheme:kAliAppScheme];
     
@@ -23,16 +24,23 @@
     [[WechatObject getInstancetype] initRegisterApp:WXAPPID];
 
 2.回调处理
+
      - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{}
+     
      - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url{}
+     
      - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options{}
 
 在AppDelegate.m中添加以上三个回调，将一下代码放于其中：
+
     [[UnionPayPaymentObject getInstancetype] handlePaymentResult:url];
+    
     [[AlipayObject getInstancetype] testUrlHostBy:url];
+    
     [[WechatObject getInstancetype] handleOpenURL:url];
 
 3.使用方法举一个例子
+
      //Apple Pay message为后台返给端上的
      - (void)applePayBy:(NSString *)message {
          [[ApplePayObject getInstancetype] startPay:[message stringTrim] vc:strongSelf];
