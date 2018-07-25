@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60191D2F2106D9A100057FF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60191D2E2106D9A100057FF9 /* AppDelegate.m */; };
+		60191D322106D9A100057FF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60191D312106D9A100057FF9 /* ViewController.m */; };
+		60191D352106D9A100057FF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60191D332106D9A100057FF9 /* Main.storyboard */; };
+		60191D372106D9A200057FF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60191D362106D9A200057FF9 /* Assets.xcassets */; };
+		60191D3A2106D9A200057FF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60191D382106D9A200057FF9 /* LaunchScreen.storyboard */; };
+		60191D3D2106D9A200057FF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60191D3C2106D9A200057FF9 /* main.m */; };
+		60191D472106D9A300057FF9 /* NHFPayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60191D462106D9A300057FF9 /* NHFPayTests.m */; };
+		60191D522106D9A300057FF9 /* NHFPayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60191D512106D9A300057FF9 /* NHFPayUITests.m */; };
+		60191D852106D9EF00057FF9 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 60191D632106D9EF00057FF9 /* RSA.m */; };
+		60191D862106D9EF00057FF9 /* libPaymentControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191D652106D9EF00057FF9 /* libPaymentControl.a */; };
+		60191D872106D9EF00057FF9 /* UnionPayPaymentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 60191D682106D9EF00057FF9 /* UnionPayPaymentObject.m */; };
+		60191D882106D9EF00057FF9 /* ApplePayObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 60191D702106D9EF00057FF9 /* ApplePayObject.m */; };
+		60191D892106D9EF00057FF9 /* libUPAPayPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191D722106D9EF00057FF9 /* libUPAPayPlugin.a */; };
+		60191D8A2106D9EF00057FF9 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 60191D742106D9EF00057FF9 /* AlipaySDK.bundle */; };
+		60191D8B2106D9EF00057FF9 /* AlipayObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 60191D772106D9EF00057FF9 /* AlipayObject.m */; };
+		60191D8C2106D9EF00057FF9 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191D782106D9EF00057FF9 /* AlipaySDK.framework */; };
+		60191D9C210733D600057FF9 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 60191D94210733D600057FF9 /* README.txt */; };
+		60191D9D210733D600057FF9 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191D96210733D600057FF9 /* libWeChatSDK.a */; };
+		60191D9E210733D600057FF9 /* WechatObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 60191D9A210733D600057FF9 /* WechatObject.m */; };
+		60191D9F210733D600057FF9 /* WxPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 60191D9B210733D600057FF9 /* WxPay.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60191D432106D9A200057FF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60191D222106D9A100057FF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60191D292106D9A100057FF9;
+			remoteInfo = NHFPay;
+		};
+		60191D4E2106D9A300057FF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60191D222106D9A100057FF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60191D292106D9A100057FF9;
+			remoteInfo = NHFPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60191D2A2106D9A100057FF9 /* NHFPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHFPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60191D2D2106D9A100057FF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60191D2E2106D9A100057FF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60191D302106D9A100057FF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60191D312106D9A100057FF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60191D342106D9A100057FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60191D362106D9A200057FF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60191D392106D9A200057FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60191D3B2106D9A200057FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60191D3C2106D9A200057FF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60191D422106D9A200057FF9 /* NHFPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHFPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60191D462106D9A300057FF9 /* NHFPayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHFPayTests.m; sourceTree = "<group>"; };
+		60191D482106D9A300057FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60191D4D2106D9A300057FF9 /* NHFPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHFPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60191D512106D9A300057FF9 /* NHFPayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHFPayUITests.m; sourceTree = "<group>"; };
+		60191D532106D9A300057FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60191D622106D9EF00057FF9 /* UPPaymentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
+		60191D632106D9EF00057FF9 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
+		60191D652106D9EF00057FF9 /* libPaymentControl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymentControl.a; sourceTree = "<group>"; };
+		60191D672106D9EF00057FF9 /* UnionPayPaymentObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnionPayPaymentObject.h; sourceTree = "<group>"; };
+		60191D682106D9EF00057FF9 /* UnionPayPaymentObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnionPayPaymentObject.m; sourceTree = "<group>"; };
+		60191D692106D9EF00057FF9 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		60191D6C2106D9EF00057FF9 /* UPAPayPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPAPayPlugin.h; sourceTree = "<group>"; };
+		60191D6D2106D9EF00057FF9 /* UPAPayPluginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPAPayPluginDelegate.h; sourceTree = "<group>"; };
+		60191D6F2106D9EF00057FF9 /* ApplePayObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplePayObject.h; sourceTree = "<group>"; };
+		60191D702106D9EF00057FF9 /* ApplePayObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplePayObject.m; sourceTree = "<group>"; };
+		60191D722106D9EF00057FF9 /* libUPAPayPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUPAPayPlugin.a; sourceTree = "<group>"; };
+		60191D742106D9EF00057FF9 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		60191D762106D9EF00057FF9 /* AlipayObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlipayObject.h; sourceTree = "<group>"; };
+		60191D772106D9EF00057FF9 /* AlipayObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlipayObject.m; sourceTree = "<group>"; };
+		60191D782106D9EF00057FF9 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		60191D842106D9EF00057FF9 /* NHFPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHFPay.h; sourceTree = "<group>"; };
+		60191D92210733D600057FF9 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		60191D93210733D600057FF9 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		60191D94210733D600057FF9 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		60191D95210733D600057FF9 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		60191D96210733D600057FF9 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		60191D98210733D600057FF9 /* WechatObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatObject.h; sourceTree = "<group>"; };
+		60191D99210733D600057FF9 /* WxPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WxPay.h; sourceTree = "<group>"; };
+		60191D9A210733D600057FF9 /* WechatObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WechatObject.m; sourceTree = "<group>"; };
+		60191D9B210733D600057FF9 /* WxPay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WxPay.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60191D272106D9A100057FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60191D892106D9EF00057FF9 /* libUPAPayPlugin.a in Frameworks */,
+				60191D862106D9EF00057FF9 /* libPaymentControl.a in Frameworks */,
+				60191D9D210733D600057FF9 /* libWeChatSDK.a in Frameworks */,
+				60191D8C2106D9EF00057FF9 /* AlipaySDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60191D3F2106D9A200057FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60191D4A2106D9A300057FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60191D212106D9A100057FF9 = {
+			isa = PBXGroup;
+			children = (
+				60191D5F2106D9D700057FF9 /* Pay */,
+				60191D2C2106D9A100057FF9 /* NHFPay */,
+				60191D452106D9A300057FF9 /* NHFPayTests */,
+				60191D502106D9A300057FF9 /* NHFPayUITests */,
+				60191D2B2106D9A100057FF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60191D2B2106D9A100057FF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60191D2A2106D9A100057FF9 /* NHFPay.app */,
+				60191D422106D9A200057FF9 /* NHFPayTests.xctest */,
+				60191D4D2106D9A300057FF9 /* NHFPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60191D2C2106D9A100057FF9 /* NHFPay */ = {
+			isa = PBXGroup;
+			children = (
+				60191D2D2106D9A100057FF9 /* AppDelegate.h */,
+				60191D2E2106D9A100057FF9 /* AppDelegate.m */,
+				60191D302106D9A100057FF9 /* ViewController.h */,
+				60191D312106D9A100057FF9 /* ViewController.m */,
+				60191D332106D9A100057FF9 /* Main.storyboard */,
+				60191D362106D9A200057FF9 /* Assets.xcassets */,
+				60191D382106D9A200057FF9 /* LaunchScreen.storyboard */,
+				60191D3B2106D9A200057FF9 /* Info.plist */,
+				60191D3C2106D9A200057FF9 /* main.m */,
+			);
+			path = NHFPay;
+			sourceTree = "<group>";
+		};
+		60191D452106D9A300057FF9 /* NHFPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				60191D462106D9A300057FF9 /* NHFPayTests.m */,
+				60191D482106D9A300057FF9 /* Info.plist */,
+			);
+			path = NHFPayTests;
+			sourceTree = "<group>";
+		};
+		60191D502106D9A300057FF9 /* NHFPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60191D512106D9A300057FF9 /* NHFPayUITests.m */,
+				60191D532106D9A300057FF9 /* Info.plist */,
+			);
+			path = NHFPayUITests;
+			sourceTree = "<group>";
+		};
+		60191D5F2106D9D700057FF9 /* Pay */ = {
+			isa = PBXGroup;
+			children = (
+				60191D91210733D600057FF9 /* WechatSDK */,
+				60191D732106D9EF00057FF9 /* aliPay */,
+				60191D6A2106D9EF00057FF9 /* applePaySDK */,
+				60191D842106D9EF00057FF9 /* NHFPay.h */,
+				60191D602106D9EF00057FF9 /* paymentcontrol */,
+			);
+			path = Pay;
+			sourceTree = "<group>";
+		};
+		60191D602106D9EF00057FF9 /* paymentcontrol */ = {
+			isa = PBXGroup;
+			children = (
+				60191D612106D9EF00057FF9 /* inc */,
+				60191D632106D9EF00057FF9 /* RSA.m */,
+				60191D642106D9EF00057FF9 /* libs */,
+				60191D662106D9EF00057FF9 /* UnionPayPaymentObject */,
+				60191D692106D9EF00057FF9 /* RSA.h */,
+			);
+			path = paymentcontrol;
+			sourceTree = "<group>";
+		};
+		60191D612106D9EF00057FF9 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				60191D622106D9EF00057FF9 /* UPPaymentControl.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		60191D642106D9EF00057FF9 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				60191D652106D9EF00057FF9 /* libPaymentControl.a */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		60191D662106D9EF00057FF9 /* UnionPayPaymentObject */ = {
+			isa = PBXGroup;
+			children = (
+				60191D672106D9EF00057FF9 /* UnionPayPaymentObject.h */,
+				60191D682106D9EF00057FF9 /* UnionPayPaymentObject.m */,
+			);
+			path = UnionPayPaymentObject;
+			sourceTree = "<group>";
+		};
+		60191D6A2106D9EF00057FF9 /* applePaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				60191D6B2106D9EF00057FF9 /* inc */,
+				60191D6E2106D9EF00057FF9 /* ApplePayObject */,
+				60191D712106D9EF00057FF9 /* libs */,
+			);
+			path = applePaySDK;
+			sourceTree = "<group>";
+		};
+		60191D6B2106D9EF00057FF9 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				60191D6C2106D9EF00057FF9 /* UPAPayPlugin.h */,
+				60191D6D2106D9EF00057FF9 /* UPAPayPluginDelegate.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		60191D6E2106D9EF00057FF9 /* ApplePayObject */ = {
+			isa = PBXGroup;
+			children = (
+				60191D6F2106D9EF00057FF9 /* ApplePayObject.h */,
+				60191D702106D9EF00057FF9 /* ApplePayObject.m */,
+			);
+			path = ApplePayObject;
+			sourceTree = "<group>";
+		};
+		60191D712106D9EF00057FF9 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				60191D722106D9EF00057FF9 /* libUPAPayPlugin.a */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		60191D732106D9EF00057FF9 /* aliPay */ = {
+			isa = PBXGroup;
+			children = (
+				60191D742106D9EF00057FF9 /* AlipaySDK.bundle */,
+				60191D752106D9EF00057FF9 /* AlipayObject */,
+				60191D782106D9EF00057FF9 /* AlipaySDK.framework */,
+			);
+			path = aliPay;
+			sourceTree = "<group>";
+		};
+		60191D752106D9EF00057FF9 /* AlipayObject */ = {
+			isa = PBXGroup;
+			children = (
+				60191D762106D9EF00057FF9 /* AlipayObject.h */,
+				60191D772106D9EF00057FF9 /* AlipayObject.m */,
+			);
+			path = AlipayObject;
+			sourceTree = "<group>";
+		};
+		60191D91210733D600057FF9 /* WechatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				60191D92210733D600057FF9 /* WXApi.h */,
+				60191D93210733D600057FF9 /* WXApiObject.h */,
+				60191D94210733D600057FF9 /* README.txt */,
+				60191D95210733D600057FF9 /* WechatAuthSDK.h */,
+				60191D96210733D600057FF9 /* libWeChatSDK.a */,
+				60191D97210733D600057FF9 /* WechatObject */,
+			);
+			path = WechatSDK;
+			sourceTree = "<group>";
+		};
+		60191D97210733D600057FF9 /* WechatObject */ = {
+			isa = PBXGroup;
+			children = (
+				60191D98210733D600057FF9 /* WechatObject.h */,
+				60191D99210733D600057FF9 /* WxPay.h */,
+				60191D9A210733D600057FF9 /* WechatObject.m */,
+				60191D9B210733D600057FF9 /* WxPay.m */,
+			);
+			path = WechatObject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60191D292106D9A100057FF9 /* NHFPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60191D562106D9A300057FF9 /* Build configuration list for PBXNativeTarget "NHFPay" */;
+			buildPhases = (
+				60191D262106D9A100057FF9 /* Sources */,
+				60191D272106D9A100057FF9 /* Frameworks */,
+				60191D282106D9A100057FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NHFPay;
+			productName = NHFPay;
+			productReference = 60191D2A2106D9A100057FF9 /* NHFPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60191D412106D9A200057FF9 /* NHFPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60191D592106D9A300057FF9 /* Build configuration list for PBXNativeTarget "NHFPayTests" */;
+			buildPhases = (
+				60191D3E2106D9A200057FF9 /* Sources */,
+				60191D3F2106D9A200057FF9 /* Frameworks */,
+				60191D402106D9A200057FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60191D442106D9A200057FF9 /* PBXTargetDependency */,
+			);
+			name = NHFPayTests;
+			productName = NHFPayTests;
+			productReference = 60191D422106D9A200057FF9 /* NHFPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60191D4C2106D9A300057FF9 /* NHFPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60191D5C2106D9A300057FF9 /* Build configuration list for PBXNativeTarget "NHFPayUITests" */;
+			buildPhases = (
+				60191D492106D9A300057FF9 /* Sources */,
+				60191D4A2106D9A300057FF9 /* Frameworks */,
+				60191D4B2106D9A300057FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60191D4F2106D9A300057FF9 /* PBXTargetDependency */,
+			);
+			name = NHFPayUITests;
+			productName = NHFPayUITests;
+			productReference = 60191D4D2106D9A300057FF9 /* NHFPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60191D222106D9A100057FF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "网络科技";
+				TargetAttributes = {
+					60191D292106D9A100057FF9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					60191D412106D9A200057FF9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 60191D292106D9A100057FF9;
+					};
+					60191D4C2106D9A300057FF9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 60191D292106D9A100057FF9;
+					};
+				};
+			};
+			buildConfigurationList = 60191D252106D9A100057FF9 /* Build configuration list for PBXProject "NHFPay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60191D212106D9A100057FF9;
+			productRefGroup = 60191D2B2106D9A100057FF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60191D292106D9A100057FF9 /* NHFPay */,
+				60191D412106D9A200057FF9 /* NHFPayTests */,
+				60191D4C2106D9A300057FF9 /* NHFPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60191D282106D9A100057FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60191D3A2106D9A200057FF9 /* LaunchScreen.storyboard in Resources */,
+				60191D372106D9A200057FF9 /* Assets.xcassets in Resources */,
+				60191D8A2106D9EF00057FF9 /* AlipaySDK.bundle in Resources */,
+				60191D352106D9A100057FF9 /* Main.storyboard in Resources */,
+				60191D9C210733D600057FF9 /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60191D402106D9A200057FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60191D4B2106D9A300057FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60191D262106D9A100057FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60191D322106D9A100057FF9 /* ViewController.m in Sources */,
+				60191D3D2106D9A200057FF9 /* main.m in Sources */,
+				60191D882106D9EF00057FF9 /* ApplePayObject.m in Sources */,
+				60191D852106D9EF00057FF9 /* RSA.m in Sources */,
+				60191D9E210733D600057FF9 /* WechatObject.m in Sources */,
+				60191D2F2106D9A100057FF9 /* AppDelegate.m in Sources */,
+				60191D9F210733D600057FF9 /* WxPay.m in Sources */,
+				60191D872106D9EF00057FF9 /* UnionPayPaymentObject.m in Sources */,
+				60191D8B2106D9EF00057FF9 /* AlipayObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60191D3E2106D9A200057FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60191D472106D9A300057FF9 /* NHFPayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60191D492106D9A300057FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60191D522106D9A300057FF9 /* NHFPayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60191D442106D9A200057FF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60191D292106D9A100057FF9 /* NHFPay */;
+			targetProxy = 60191D432106D9A200057FF9 /* PBXContainerItemProxy */;
+		};
+		60191D4F2106D9A300057FF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60191D292106D9A100057FF9 /* NHFPay */;
+			targetProxy = 60191D4E2106D9A300057FF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60191D332106D9A100057FF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60191D342106D9A100057FF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60191D382106D9A200057FF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60191D392106D9A200057FF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60191D542106D9A300057FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60191D552106D9A300057FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60191D572106D9A300057FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DU5XLJ4CM8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pay/aliPay",
+				);
+				INFOPLIST_FILE = NHFPay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pay/paymentcontrol/libs",
+					"$(PROJECT_DIR)/Pay/applePaySDK/libs",
+					"$(PROJECT_DIR)/Pay/WechatSDK1.8.2",
+					"$(PROJECT_DIR)/Pay/WechatSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhf.NHFPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60191D582106D9A300057FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DU5XLJ4CM8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pay/aliPay",
+				);
+				INFOPLIST_FILE = NHFPay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pay/paymentcontrol/libs",
+					"$(PROJECT_DIR)/Pay/applePaySDK/libs",
+					"$(PROJECT_DIR)/Pay/WechatSDK1.8.2",
+					"$(PROJECT_DIR)/Pay/WechatSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhf.NHFPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60191D5A2106D9A300057FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DU5XLJ4CM8;
+				INFOPLIST_FILE = NHFPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhf.NHFPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHFPay.app/NHFPay";
+			};
+			name = Debug;
+		};
+		60191D5B2106D9A300057FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DU5XLJ4CM8;
+				INFOPLIST_FILE = NHFPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhf.NHFPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHFPay.app/NHFPay";
+			};
+			name = Release;
+		};
+		60191D5D2106D9A300057FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DU5XLJ4CM8;
+				INFOPLIST_FILE = NHFPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhf.NHFPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NHFPay;
+			};
+			name = Debug;
+		};
+		60191D5E2106D9A300057FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DU5XLJ4CM8;
+				INFOPLIST_FILE = NHFPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhf.NHFPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NHFPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60191D252106D9A100057FF9 /* Build configuration list for PBXProject "NHFPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60191D542106D9A300057FF9 /* Debug */,
+				60191D552106D9A300057FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60191D562106D9A300057FF9 /* Build configuration list for PBXNativeTarget "NHFPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60191D572106D9A300057FF9 /* Debug */,
+				60191D582106D9A300057FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60191D592106D9A300057FF9 /* Build configuration list for PBXNativeTarget "NHFPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60191D5A2106D9A300057FF9 /* Debug */,
+				60191D5B2106D9A300057FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60191D5C2106D9A300057FF9 /* Build configuration list for PBXNativeTarget "NHFPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60191D5D2106D9A300057FF9 /* Debug */,
+				60191D5E2106D9A300057FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60191D222106D9A100057FF9 /* Project object */;
+}
