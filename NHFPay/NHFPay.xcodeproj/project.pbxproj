@@ -24,9 +24,21 @@
 		60191D8B2106D9EF00057FF9 /* AlipayObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 60191D772106D9EF00057FF9 /* AlipayObject.m */; };
 		60191D8C2106D9EF00057FF9 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191D782106D9EF00057FF9 /* AlipaySDK.framework */; };
 		60191D9C210733D600057FF9 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 60191D94210733D600057FF9 /* README.txt */; };
-		60191D9D210733D600057FF9 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191D96210733D600057FF9 /* libWeChatSDK.a */; };
 		60191D9E210733D600057FF9 /* WechatObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 60191D9A210733D600057FF9 /* WechatObject.m */; };
 		60191D9F210733D600057FF9 /* WxPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 60191D9B210733D600057FF9 /* WxPay.m */; };
+		60191DA421082B2E00057FF9 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191DA321082B2E00057FF9 /* libWeChatSDK.a */; };
+		60191DA721082C4600057FF9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191DA621082C4600057FF9 /* QuartzCore.framework */; };
+		60191DA921082C5000057FF9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191DA821082C5000057FF9 /* CoreData.framework */; };
+		60191DAB21082C5800057FF9 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191DAA21082C5800057FF9 /* PassKit.framework */; };
+		60191DAD21082C6000057FF9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191DAC21082C6000057FF9 /* Security.framework */; };
+		60191DAF21082C6700057FF9 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191DAE21082C6700057FF9 /* CoreMotion.framework */; };
+		60191DB121082C6F00057FF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191DB021082C6F00057FF9 /* CoreGraphics.framework */; };
+		60191DB321082C7600057FF9 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191DB221082C7600057FF9 /* CoreText.framework */; };
+		60191DB521082C7C00057FF9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191DB421082C7C00057FF9 /* CoreTelephony.framework */; };
+		60191DB721082C8300057FF9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191DB621082C8300057FF9 /* SystemConfiguration.framework */; };
+		60191DB921082C9600057FF9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191DB821082C9500057FF9 /* libc++.tbd */; };
+		60191DBB21082C9F00057FF9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191DBA21082C9E00057FF9 /* libz.tbd */; };
+		60191DBD21082CA600057FF9 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191DBC21082CA600057FF9 /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,11 +95,23 @@
 		60191D93210733D600057FF9 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		60191D94210733D600057FF9 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		60191D95210733D600057FF9 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
-		60191D96210733D600057FF9 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		60191D98210733D600057FF9 /* WechatObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatObject.h; sourceTree = "<group>"; };
 		60191D99210733D600057FF9 /* WxPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WxPay.h; sourceTree = "<group>"; };
 		60191D9A210733D600057FF9 /* WechatObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WechatObject.m; sourceTree = "<group>"; };
 		60191D9B210733D600057FF9 /* WxPay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WxPay.m; sourceTree = "<group>"; };
+		60191DA321082B2E00057FF9 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		60191DA621082C4600057FF9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		60191DA821082C5000057FF9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		60191DAA21082C5800057FF9 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		60191DAC21082C6000057FF9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		60191DAE21082C6700057FF9 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		60191DB021082C6F00057FF9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		60191DB221082C7600057FF9 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		60191DB421082C7C00057FF9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		60191DB621082C8300057FF9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		60191DB821082C9500057FF9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		60191DBA21082C9E00057FF9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		60191DBC21082CA600057FF9 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +119,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60191DBD21082CA600057FF9 /* libsqlite3.0.tbd in Frameworks */,
+				60191DBB21082C9F00057FF9 /* libz.tbd in Frameworks */,
+				60191DB921082C9600057FF9 /* libc++.tbd in Frameworks */,
+				60191DB721082C8300057FF9 /* SystemConfiguration.framework in Frameworks */,
+				60191DB521082C7C00057FF9 /* CoreTelephony.framework in Frameworks */,
+				60191DB321082C7600057FF9 /* CoreText.framework in Frameworks */,
+				60191DB121082C6F00057FF9 /* CoreGraphics.framework in Frameworks */,
+				60191DAF21082C6700057FF9 /* CoreMotion.framework in Frameworks */,
+				60191DAD21082C6000057FF9 /* Security.framework in Frameworks */,
+				60191DAB21082C5800057FF9 /* PassKit.framework in Frameworks */,
+				60191DA921082C5000057FF9 /* CoreData.framework in Frameworks */,
+				60191DA721082C4600057FF9 /* QuartzCore.framework in Frameworks */,
 				60191D892106D9EF00057FF9 /* libUPAPayPlugin.a in Frameworks */,
 				60191D862106D9EF00057FF9 /* libPaymentControl.a in Frameworks */,
-				60191D9D210733D600057FF9 /* libWeChatSDK.a in Frameworks */,
+				60191DA421082B2E00057FF9 /* libWeChatSDK.a in Frameworks */,
 				60191D8C2106D9EF00057FF9 /* AlipaySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,6 +163,7 @@
 				60191D452106D9A300057FF9 /* NHFPayTests */,
 				60191D502106D9A300057FF9 /* NHFPayUITests */,
 				60191D2B2106D9A100057FF9 /* Products */,
+				60191DA521082C4600057FF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -285,7 +322,7 @@
 				60191D93210733D600057FF9 /* WXApiObject.h */,
 				60191D94210733D600057FF9 /* README.txt */,
 				60191D95210733D600057FF9 /* WechatAuthSDK.h */,
-				60191D96210733D600057FF9 /* libWeChatSDK.a */,
+				60191DA321082B2E00057FF9 /* libWeChatSDK.a */,
 				60191D97210733D600057FF9 /* WechatObject */,
 			);
 			path = WechatSDK;
@@ -300,6 +337,25 @@
 				60191D9B210733D600057FF9 /* WxPay.m */,
 			);
 			path = WechatObject;
+			sourceTree = "<group>";
+		};
+		60191DA521082C4600057FF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60191DBC21082CA600057FF9 /* libsqlite3.0.tbd */,
+				60191DBA21082C9E00057FF9 /* libz.tbd */,
+				60191DB821082C9500057FF9 /* libc++.tbd */,
+				60191DB621082C8300057FF9 /* SystemConfiguration.framework */,
+				60191DB421082C7C00057FF9 /* CoreTelephony.framework */,
+				60191DB221082C7600057FF9 /* CoreText.framework */,
+				60191DB021082C6F00057FF9 /* CoreGraphics.framework */,
+				60191DAE21082C6700057FF9 /* CoreMotion.framework */,
+				60191DAC21082C6000057FF9 /* Security.framework */,
+				60191DAA21082C5800057FF9 /* PassKit.framework */,
+				60191DA821082C5000057FF9 /* CoreData.framework */,
+				60191DA621082C4600057FF9 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -618,7 +674,7 @@
 					"$(PROJECT_DIR)/Pay/aliPay",
 				);
 				INFOPLIST_FILE = NHFPay/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -627,7 +683,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pay/paymentcontrol/libs",
 					"$(PROJECT_DIR)/Pay/applePaySDK/libs",
-					"$(PROJECT_DIR)/Pay/WechatSDK1.8.2",
 					"$(PROJECT_DIR)/Pay/WechatSDK",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhf.NHFPay;
@@ -647,7 +702,7 @@
 					"$(PROJECT_DIR)/Pay/aliPay",
 				);
 				INFOPLIST_FILE = NHFPay/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -656,7 +711,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pay/paymentcontrol/libs",
 					"$(PROJECT_DIR)/Pay/applePaySDK/libs",
-					"$(PROJECT_DIR)/Pay/WechatSDK1.8.2",
 					"$(PROJECT_DIR)/Pay/WechatSDK",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhf.NHFPay;
