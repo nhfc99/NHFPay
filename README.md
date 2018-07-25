@@ -11,6 +11,12 @@
 
 1.先进行初始化操作，位置放于自己经常放项目启动初始化的地方，比如APPDelegate.m中
 
+    头文件
+    #import "AlipayObject.h"
+    #import "ApplePayObject.h"
+    #import "UnionPayPaymentObject.h"
+    #import "WechatObject.h"
+
     //初始化支付
     [[AlipayObject getInstancetype] initByAppScheme:kAliAppScheme];
     
