@@ -48,6 +48,17 @@ static AlipayObject *object = nil;
             if (self->_processOrdPR != nil) {
                 self->_processOrdPR(resultDic);
             }
+            
+            if (self->_payResult != nil) {
+                NSInteger resultStatus = [resultDic[@"resultStatus"] integerValue];
+                NSString *memo = resultDic[@"memo"];
+                NSString *result = resultDic[@"result"];
+                if (resultStatus == 9000) {
+                    self->_payResult(true, result, memo);
+                } else {
+                    self->_payResult(false, result, memo);
+                }
+            }
         }];
         
         // 授权跳转支付宝钱包进行支付，处理支付结果
@@ -63,46 +74,12 @@ static AlipayObject *object = nil;
     }
 }
 
-//{
-//    memo = "\U7528\U6237\U4e2d\U9014\U53d6\U6d88";
-//    result = "";
-//    resultStatus = 6001;
-//}
 - (void)toPay:(NSString *)signString
    payOrderCB:(ResultDic)payOrderCB {
     _payOrderCB = payOrderCB;
     if (signString != nil) {
-        [[AlipaySDK defaultService] payOrder:signString fromScheme:_appScheme callback:^(NSDictionary *resultDic) {
-            if (self->_payOrderCB != nil) {
-                self->_payOrderCB(resultDic);
-            }
-            
-            if (self->_payResult != nil) {
-                NSInteger resultStatus = [resultDic[@"resultStatus"] integerValue];
-                NSString *memo = resultDic[@"memo"];
-                NSString *result = resultDic[@"result"];
-                if (resultStatus == 9000) {
-                    self->_payResult(true, result, memo);
-                } else {
-                    self->_payResult(false, result, memo);
-                }
-            }
-        }];
+        [[AlipaySDK defaultService] payOrder:signString fromScheme:_appScheme callback:^(NSDictionary *resultDic) {}];
     }
 }
 
 @end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
