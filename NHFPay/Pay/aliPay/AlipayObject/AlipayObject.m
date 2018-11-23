@@ -49,14 +49,32 @@ static AlipayObject *object = nil;
                 self->_processOrdPR(resultDic);
             }
             
-            if (self->_payResult != nil) {
-                NSInteger resultStatus = [resultDic[@"resultStatus"] integerValue];
-                NSString *memo = resultDic[@"memo"];
-                NSString *result = resultDic[@"result"];
+            //回调结果
+            NSInteger resultStatus = [resultDic[@"resultStatus"] integerValue];
+            NSString *result = resultDic[@"result"];
+            
+            //支付结果信息
+            NSDictionary *results = @{@"9000":@"支付成功", @"8000":@"正在处理中，请稍后查看",  @"4000":@"订单支付失败", @"5000":@"重复请求", @"6001":@"用户中途取消", @"6002":@"网络连接出错", @"6004":@"支付结果未知"};
+            NSString *keyString = [NSString stringWithFormat:@"%ld", resultStatus];
+            NSString *msg = results[keyString];
+            if (msg == nil) {
+                msg = @"支付失败";
+            }
+            
+            if (self->_payResult) {
                 if (resultStatus == 9000) {
-                    self->_payResult(true, result, memo);
+                    self->_payResult(true, msg, msg);
                 } else {
-                    self->_payResult(false, result, memo);
+                    self->_payResult(false, msg, msg);
+                }
+            }
+            
+            //此处为用户展示的
+            if (self->_alipayObjectResult) {
+                if (resultStatus == 9000) {
+                    self->_alipayObjectResult(true, resultStatus, msg, result);
+                } else {
+                    self->_alipayObjectResult(false, resultStatus, msg, result);
                 }
             }
         }];

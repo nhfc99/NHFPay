@@ -10,6 +10,7 @@
 
 typedef void(^ResultDic)(NSDictionary *resultDic);
 typedef void(^PayResult)(BOOL success, NSString *result, NSString *errorMsg);
+typedef void(^AlipayObjectResult)(BOOL success, NSInteger resultStatus, NSString *message,  NSString *result);
 
 @interface AlipayObject : NSObject
 
@@ -21,6 +22,8 @@ typedef void(^PayResult)(BOOL success, NSString *result, NSString *errorMsg);
 @property (nonatomic, copy) ResultDic processAuthCB;
 //支付回调之后的结果
 @property (nonatomic, copy) PayResult payResult;
+//支付回调之后的结果
+@property (nonatomic, copy) AlipayObjectResult alipayObjectResult;
 
 + (instancetype)getInstancetype;
 
