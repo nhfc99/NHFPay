@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NHFPay"
-  s.version      = "1.1.1"
+  s.version      = "1.1.2"
   s.summary      = "微信、支付宝、银联、Apple Pay 4种支付方式的集合封装，仅仅用于方便使用"
   s.homepage     = "https://github.com/nhfc99/NHFPay.git"
   s.license      = "MIT"
@@ -16,20 +16,20 @@ Pod::Spec.new do |s|
   s.dependency "AlipaySDK-iOS"
   s.dependency "WechatOpenSDK"
 
-  s.public_header_files = 'Classes/Pay/NHFPay.h'
+  s.public_header_files = 'Pay/NHFPay.h'
 
   s.subspec 'WechatObject' do |ss|
-    ss.source_files = 'Classes/Pay/WechatObject/*.{h,m}'
-    ss.public_header_files = 'Classes/Pay/WechatObject/*.h'
+    ss.source_files = 'Pay/WechatObject/*.{h,m}'
+    ss.public_header_files = 'Pay/WechatObject/*.h'
   end
 
   s.subspec 'AlipayObject' do |ss|
-    ss.source_files = 'Classes/Pay/AlipayObject/*.{h,m}'
-    ss.public_header_files = 'Classes/Pay/AlipayObject/*.h'
+    ss.source_files = 'Pay/AlipayObject/*.{h,m}'
+    ss.public_header_files = 'Pay/AlipayObject/*.h'
   end
 
   s.subspec 'applePaySDK' do |ss|
-    ss.source_files = 'Classes/Pay/applePaySDK/**/*.{h,m}'
-    ss.public_header_files = 'Classes/Pay/applePaySDK/**/*.h'
+    ss.source_files = 'Pay/applePaySDK/**/*.{h,m}'
+    ss.public_header_files = 'Pay/applePaySDK/**/*.h'
   end
 end
