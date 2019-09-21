@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NHFPay"
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   s.summary      = "微信、支付宝、银联、Apple Pay 4种支付方式的集合封装，仅仅用于方便使用"
   s.homepage     = "https://github.com/nhfc99/NHFPay.git"
   s.license      = "MIT"
