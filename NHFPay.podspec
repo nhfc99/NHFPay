@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'applePaySDK' do |ss|
-    ss.source_files = 'Classes/Pay/applePaySDK/*.{h,m}'
-    ss.public_header_files = 'Classes/Pay/applePaySDK/*.h'
+    ss.source_files = 'Classes/Pay/applePaySDK/**/*.{h,m}'
+    ss.public_header_files = 'Classes/Pay/applePaySDK/**/*.h'
   end
 end
