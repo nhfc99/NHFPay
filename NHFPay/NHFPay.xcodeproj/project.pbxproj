@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17E5DECBA5E2EDFE98241ADD /* libPods-NHFPay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B689035CD04D26F02E5B61B2 /* libPods-NHFPay.a */; };
 		60191D2F2106D9A100057FF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60191D2E2106D9A100057FF9 /* AppDelegate.m */; };
 		60191D322106D9A100057FF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60191D312106D9A100057FF9 /* ViewController.m */; };
 		60191D352106D9A100057FF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60191D332106D9A100057FF9 /* Main.storyboard */; };
@@ -20,13 +21,8 @@
 		60191D872106D9EF00057FF9 /* UnionPayPaymentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 60191D682106D9EF00057FF9 /* UnionPayPaymentObject.m */; };
 		60191D882106D9EF00057FF9 /* ApplePayObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 60191D702106D9EF00057FF9 /* ApplePayObject.m */; };
 		60191D892106D9EF00057FF9 /* libUPAPayPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191D722106D9EF00057FF9 /* libUPAPayPlugin.a */; };
-		60191D8A2106D9EF00057FF9 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 60191D742106D9EF00057FF9 /* AlipaySDK.bundle */; };
-		60191D8B2106D9EF00057FF9 /* AlipayObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 60191D772106D9EF00057FF9 /* AlipayObject.m */; };
-		60191D8C2106D9EF00057FF9 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191D782106D9EF00057FF9 /* AlipaySDK.framework */; };
-		60191D9C210733D600057FF9 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 60191D94210733D600057FF9 /* README.txt */; };
 		60191D9E210733D600057FF9 /* WechatObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 60191D9A210733D600057FF9 /* WechatObject.m */; };
 		60191D9F210733D600057FF9 /* WxPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 60191D9B210733D600057FF9 /* WxPay.m */; };
-		60191DA421082B2E00057FF9 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191DA321082B2E00057FF9 /* libWeChatSDK.a */; };
 		60191DA721082C4600057FF9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191DA621082C4600057FF9 /* QuartzCore.framework */; };
 		60191DA921082C5000057FF9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191DA821082C5000057FF9 /* CoreData.framework */; };
 		60191DAB21082C5800057FF9 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191DAA21082C5800057FF9 /* PassKit.framework */; };
@@ -39,6 +35,7 @@
 		60191DB921082C9600057FF9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191DB821082C9500057FF9 /* libc++.tbd */; };
 		60191DBB21082C9F00057FF9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191DBA21082C9E00057FF9 /* libz.tbd */; };
 		60191DBD21082CA600057FF9 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60191DBC21082CA600057FF9 /* libsqlite3.0.tbd */; };
+		8957B7082335B31C00288953 /* AlipayObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8957B7072335B31C00288953 /* AlipayObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40AD06208DC6BB2D5D53F138 /* Pods-NHFPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHFPay.release.xcconfig"; path = "Target Support Files/Pods-NHFPay/Pods-NHFPay.release.xcconfig"; sourceTree = "<group>"; };
 		60191D2A2106D9A100057FF9 /* NHFPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHFPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60191D2D2106D9A100057FF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		60191D2E2106D9A100057FF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -86,20 +84,11 @@
 		60191D6F2106D9EF00057FF9 /* ApplePayObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplePayObject.h; sourceTree = "<group>"; };
 		60191D702106D9EF00057FF9 /* ApplePayObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplePayObject.m; sourceTree = "<group>"; };
 		60191D722106D9EF00057FF9 /* libUPAPayPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUPAPayPlugin.a; sourceTree = "<group>"; };
-		60191D742106D9EF00057FF9 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
-		60191D762106D9EF00057FF9 /* AlipayObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlipayObject.h; sourceTree = "<group>"; };
-		60191D772106D9EF00057FF9 /* AlipayObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlipayObject.m; sourceTree = "<group>"; };
-		60191D782106D9EF00057FF9 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		60191D842106D9EF00057FF9 /* NHFPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHFPay.h; sourceTree = "<group>"; };
-		60191D92210733D600057FF9 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		60191D93210733D600057FF9 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
-		60191D94210733D600057FF9 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		60191D95210733D600057FF9 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
 		60191D98210733D600057FF9 /* WechatObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatObject.h; sourceTree = "<group>"; };
 		60191D99210733D600057FF9 /* WxPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WxPay.h; sourceTree = "<group>"; };
 		60191D9A210733D600057FF9 /* WechatObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WechatObject.m; sourceTree = "<group>"; };
 		60191D9B210733D600057FF9 /* WxPay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WxPay.m; sourceTree = "<group>"; };
-		60191DA321082B2E00057FF9 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		60191DA621082C4600057FF9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		60191DA821082C5000057FF9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		60191DAA21082C5800057FF9 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
@@ -112,6 +101,10 @@
 		60191DB821082C9500057FF9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		60191DBA21082C9E00057FF9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		60191DBC21082CA600057FF9 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		8957B7062335B31C00288953 /* AlipayObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlipayObject.h; sourceTree = "<group>"; };
+		8957B7072335B31C00288953 /* AlipayObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlipayObject.m; sourceTree = "<group>"; };
+		B0EC126F4FBCE625F3E084A1 /* Pods-NHFPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHFPay.debug.xcconfig"; path = "Target Support Files/Pods-NHFPay/Pods-NHFPay.debug.xcconfig"; sourceTree = "<group>"; };
+		B689035CD04D26F02E5B61B2 /* libPods-NHFPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NHFPay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +126,7 @@
 				60191DA721082C4600057FF9 /* QuartzCore.framework in Frameworks */,
 				60191D892106D9EF00057FF9 /* libUPAPayPlugin.a in Frameworks */,
 				60191D862106D9EF00057FF9 /* libPaymentControl.a in Frameworks */,
-				60191DA421082B2E00057FF9 /* libWeChatSDK.a in Frameworks */,
-				60191D8C2106D9EF00057FF9 /* AlipaySDK.framework in Frameworks */,
+				17E5DECBA5E2EDFE98241ADD /* libPods-NHFPay.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +156,7 @@
 				60191D502106D9A300057FF9 /* NHFPayUITests */,
 				60191D2B2106D9A100057FF9 /* Products */,
 				60191DA521082C4600057FF9 /* Frameworks */,
+				A57C07F4080F4087E0B72AD5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -214,8 +207,8 @@
 		60191D5F2106D9D700057FF9 /* Pay */ = {
 			isa = PBXGroup;
 			children = (
-				60191D91210733D600057FF9 /* WechatSDK */,
-				60191D732106D9EF00057FF9 /* aliPay */,
+				60191D97210733D600057FF9 /* WechatObject */,
+				8957B7052335B31500288953 /* AlipayObject */,
 				60191D6A2106D9EF00057FF9 /* applePaySDK */,
 				60191D842106D9EF00057FF9 /* NHFPay.h */,
 				60191D602106D9EF00057FF9 /* paymentcontrol */,
@@ -296,38 +289,6 @@
 			path = libs;
 			sourceTree = "<group>";
 		};
-		60191D732106D9EF00057FF9 /* aliPay */ = {
-			isa = PBXGroup;
-			children = (
-				60191D742106D9EF00057FF9 /* AlipaySDK.bundle */,
-				60191D752106D9EF00057FF9 /* AlipayObject */,
-				60191D782106D9EF00057FF9 /* AlipaySDK.framework */,
-			);
-			path = aliPay;
-			sourceTree = "<group>";
-		};
-		60191D752106D9EF00057FF9 /* AlipayObject */ = {
-			isa = PBXGroup;
-			children = (
-				60191D762106D9EF00057FF9 /* AlipayObject.h */,
-				60191D772106D9EF00057FF9 /* AlipayObject.m */,
-			);
-			path = AlipayObject;
-			sourceTree = "<group>";
-		};
-		60191D91210733D600057FF9 /* WechatSDK */ = {
-			isa = PBXGroup;
-			children = (
-				60191D92210733D600057FF9 /* WXApi.h */,
-				60191D93210733D600057FF9 /* WXApiObject.h */,
-				60191D94210733D600057FF9 /* README.txt */,
-				60191D95210733D600057FF9 /* WechatAuthSDK.h */,
-				60191DA321082B2E00057FF9 /* libWeChatSDK.a */,
-				60191D97210733D600057FF9 /* WechatObject */,
-			);
-			path = WechatSDK;
-			sourceTree = "<group>";
-		};
 		60191D97210733D600057FF9 /* WechatObject */ = {
 			isa = PBXGroup;
 			children = (
@@ -354,8 +315,27 @@
 				60191DAA21082C5800057FF9 /* PassKit.framework */,
 				60191DA821082C5000057FF9 /* CoreData.framework */,
 				60191DA621082C4600057FF9 /* QuartzCore.framework */,
+				B689035CD04D26F02E5B61B2 /* libPods-NHFPay.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8957B7052335B31500288953 /* AlipayObject */ = {
+			isa = PBXGroup;
+			children = (
+				8957B7062335B31C00288953 /* AlipayObject.h */,
+				8957B7072335B31C00288953 /* AlipayObject.m */,
+			);
+			path = AlipayObject;
+			sourceTree = "<group>";
+		};
+		A57C07F4080F4087E0B72AD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0EC126F4FBCE625F3E084A1 /* Pods-NHFPay.debug.xcconfig */,
+				40AD06208DC6BB2D5D53F138 /* Pods-NHFPay.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,9 +345,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60191D562106D9A300057FF9 /* Build configuration list for PBXNativeTarget "NHFPay" */;
 			buildPhases = (
+				D0D8B7C976152F002128B741 /* [CP] Check Pods Manifest.lock */,
 				60191D262106D9A100057FF9 /* Sources */,
 				60191D272106D9A100057FF9 /* Frameworks */,
 				60191D282106D9A100057FF9 /* Resources */,
+				F4ED26E13B8A603EFD219DDE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -463,9 +445,7 @@
 			files = (
 				60191D3A2106D9A200057FF9 /* LaunchScreen.storyboard in Resources */,
 				60191D372106D9A200057FF9 /* Assets.xcassets in Resources */,
-				60191D8A2106D9EF00057FF9 /* AlipaySDK.bundle in Resources */,
 				60191D352106D9A100057FF9 /* Main.storyboard in Resources */,
-				60191D9C210733D600057FF9 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +465,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D0D8B7C976152F002128B741 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NHFPay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4ED26E13B8A603EFD219DDE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NHFPay/Pods-NHFPay-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NHFPay/Pods-NHFPay-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NHFPay/Pods-NHFPay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		60191D262106D9A100057FF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -493,12 +515,12 @@
 				60191D322106D9A100057FF9 /* ViewController.m in Sources */,
 				60191D3D2106D9A200057FF9 /* main.m in Sources */,
 				60191D882106D9EF00057FF9 /* ApplePayObject.m in Sources */,
+				8957B7082335B31C00288953 /* AlipayObject.m in Sources */,
 				60191D852106D9EF00057FF9 /* RSA.m in Sources */,
 				60191D9E210733D600057FF9 /* WechatObject.m in Sources */,
 				60191D2F2106D9A100057FF9 /* AppDelegate.m in Sources */,
 				60191D9F210733D600057FF9 /* WxPay.m in Sources */,
 				60191D872106D9EF00057FF9 /* UnionPayPaymentObject.m in Sources */,
-				60191D8B2106D9EF00057FF9 /* AlipayObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -665,6 +687,7 @@
 		};
 		60191D572106D9A300057FF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0EC126F4FBCE625F3E084A1 /* Pods-NHFPay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -693,6 +716,7 @@
 		};
 		60191D582106D9A300057FF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40AD06208DC6BB2D5D53F138 /* Pods-NHFPay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

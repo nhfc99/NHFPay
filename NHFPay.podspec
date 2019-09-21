@@ -9,11 +9,25 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source       = {:git => "https://github.com/nhfc99/NHFPay.git",:tag => s.version.to_s}
   s.requires_arc = true
-  s.source_files = 'NHFPay/Pay/**/*.{h,m}'
-  s.vendored_libraries = ['NHFPay/Pay/applePaySDK/libs/libUPAPayPlugin.a','NHFPay/Pay/paymentcontrol/libs/libPaymentControl.a','NHFPay/Pay/WechatSDK/libWeChatSDK.a']
-  s.vendored_frameworks = ['NHFPay/Pay/aliPay/AlipaySDK.framework']
-  s.public_header_files = ['NHFPay/Pay/**/*.h']
+  s.vendored_libraries = ['NHFPay/Pay/applePaySDK/libs/libUPAPayPlugin.a']
   s.frameworks = 'QuartzCore','CoreData','PassKit','Security','CoreMotion','Foundation','UIKit','CoreGraphics','CoreText','CoreTelephony','SystemConfiguration','AlipaySDK'
   s.libraries = 'c++','z','sqlite3.0'
-  s.resources = 'NHFPay/Pay/aliPay/AlipaySDK.bundle'
+
+  s.dependency "AlipaySDK-iOS"
+  s.dependency "WechatOpenSDK"
+
+  s.subspec 'WechatObject' do |ss|
+    ss.source_files = 'Classes/Pay/WechatObject/*.{h,m}'
+    ss.public_header_files = 'Classes/Pay/WechatObject/*.h'
+  end
+
+  s.subspec 'AlipayObject' do |ss|
+    ss.source_files = 'Classes/Pay/AlipayObject/*.{h,m}'
+    ss.public_header_files = 'Classes/Pay/AlipayObject/*.h'
+  end
+
+  s.subspec 'applePaySDK' do |ss|
+    ss.source_files = 'Classes/Pay/applePaySDK/*.{h,m}'
+    ss.public_header_files = 'Classes/Pay/applePaySDK/*.h'
+  end
 end
