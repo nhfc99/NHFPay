@@ -36,7 +36,7 @@ typedef void(^AlipayObjectResult)(BOOL success, NSInteger resultStatus, NSString
 /**
  初始化操作
 
- @param appScheme 
+ @param appScheme --
  */
 - (void)initByAppScheme:(NSString *)appScheme;
 
@@ -44,8 +44,8 @@ typedef void(^AlipayObjectResult)(BOOL success, NSInteger resultStatus, NSString
 /**
  测试是否是aliPay
 
- @param url
- @return 
+ @param url --
+ @return --
  */
 - (BOOL)testUrlHostBy:(NSURL *)url;
 
@@ -53,21 +53,10 @@ typedef void(^AlipayObjectResult)(BOOL success, NSInteger resultStatus, NSString
 /**
  发起支付
 
- @param signString
- @param payOrderCB
+ @param signString --
+ @param payOrderCB --
  */
 - (void)toPay:(NSString *)signString
    payOrderCB:(ResultDic)payOrderCB;
 
 @end
-
-
-
-
-
-
-
-
-
-
-

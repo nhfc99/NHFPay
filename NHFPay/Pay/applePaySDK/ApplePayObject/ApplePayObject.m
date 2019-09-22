@@ -84,18 +84,3 @@ static ApplePayObject *object = nil;
 }
 
 @end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

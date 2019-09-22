@@ -38,19 +38,3 @@ typedef void(^ApplePayObjectResult)(NSString* errorDescription, NSString* otherI
               vc:(UIViewController *)viewController;
 
 @end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
