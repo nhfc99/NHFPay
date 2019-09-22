@@ -105,20 +105,3 @@ static WechatObject *object = nil;
 }
 
 @end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -26,20 +26,3 @@ typedef void(^WechatObjectResult)(BOOL success, NSString *errorMsg);
        payResult:(WechatObjectResult)payResult;
 
 @end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
