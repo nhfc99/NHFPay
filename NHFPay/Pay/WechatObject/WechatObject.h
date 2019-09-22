@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "WXApi.h"
 #import "WxPay.h"
 
 typedef void(^WechatObjectResult)(BOOL success, NSString *errorMsg);

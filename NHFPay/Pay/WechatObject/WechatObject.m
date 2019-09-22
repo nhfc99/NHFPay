@@ -7,6 +7,8 @@
 //
 
 #import "WechatObject.h"
+#import "WXApi.h"
+
 @interface WechatObject () <WXApiDelegate>
 
 @end
