@@ -49,22 +49,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B9FBC4DAFED6853DD967EA863F6D139 /* WechatOpenSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.xcconfig; sourceTree = "<group>"; };
 		13D9E223B981D87A67CAF68A6ABE2359 /* libPods-NHFPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NHFPay.a"; path = "libPods-NHFPay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		18ACF3C3934CA5337AE90897445CB0E9 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = WeChatSDK1.8.4/WXApiObject.h; sourceTree = "<group>"; };
 		22BF7372466BD6F0BD29BD3393599077 /* Pods-NHFPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NHFPay-dummy.m"; sourceTree = "<group>"; };
+		34D875EFDACC3D970F29F0C59BD3217A /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = WeChatSDK1.8.6.1/libWeChatSDK.a; sourceTree = "<group>"; };
 		3804963D26FB8D06F2B8C0CCA56C4538 /* Pods-NHFPay-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NHFPay-acknowledgements.plist"; sourceTree = "<group>"; };
 		3920C4706328FD65099EE7EC811B6A65 /* Pods-NHFPay-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NHFPay-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4E5D9559641E014A836755FA51303897 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		56E362B999D80013EB5366D910CF7685 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
-		6AAB7DD93083ECAAE8244975D87A88EA /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = WeChatSDK1.8.4/WXApi.h; sourceTree = "<group>"; };
-		6DCD9C8F14D55664FF3F0119757F0DAD /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = WeChatSDK1.8.4/libWeChatSDK.a; sourceTree = "<group>"; };
 		7BF6DB0B025EAC8A7FB9BE5F595A9459 /* Pods-NHFPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NHFPay.debug.xcconfig"; sourceTree = "<group>"; };
-		82CFB8DE3FEB0FE1259EE3E8206CE3FF /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WeChatSDK1.8.4/WechatAuthSDK.h; sourceTree = "<group>"; };
 		886377769AD4A7D43C9ECD9B21397D14 /* Pods-NHFPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NHFPay.release.xcconfig"; sourceTree = "<group>"; };
+		90AB7EC4AF427B4D394702772D99B508 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = WeChatSDK1.8.6.1/WXApi.h; sourceTree = "<group>"; };
 		92A2B5E2522A8A0D2CED48DEB380D319 /* Pods-NHFPay-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NHFPay-resources.sh"; sourceTree = "<group>"; };
+		9988AB1F19B79D4ED6F0250CDE7C275A /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WeChatSDK1.8.6.1/WechatAuthSDK.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5384FB937D224D7924B2C274A140D2D /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = WeChatSDK1.8.6.1/WXApiObject.h; sourceTree = "<group>"; };
 		CB63B532C08356AB984FB34D22FBF7AB /* AlipaySDK-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.xcconfig"; sourceTree = "<group>"; };
-		FC094A8FA0F00130B547A8EE29A890B9 /* WechatOpenSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,22 +78,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0094774E447DAFC69E08AC6DFE82F68C /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				9988AB1F19B79D4ED6F0250CDE7C275A /* WechatAuthSDK.h */,
+				90AB7EC4AF427B4D394702772D99B508 /* WXApi.h */,
+				A5384FB937D224D7924B2C274A140D2D /* WXApiObject.h */,
+				892D0A32BE042BAC50A37B2048809B10 /* Frameworks */,
+				B09FCBE7522D511E70A13DEEA3D6C0AF /* Support Files */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
 		031585440D19C24408251CCDBD89E8B8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				3421CEBB1B5B2387AEF9F263CE2B5A6F /* AlipaySDK-iOS */,
-				C14DA2673A6ECC44239F6810CE8E63D2 /* WechatOpenSDK */,
+				0094774E447DAFC69E08AC6DFE82F68C /* WechatOpenSDK */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		0A07A9D68538B1FE7CBCFBB25C67DF7A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FC094A8FA0F00130B547A8EE29A890B9 /* WechatOpenSDK.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/WechatOpenSDK";
 			sourceTree = "<group>";
 		};
 		2AE5238EBB74912F2E50F6ABE1B4224B /* Targets Support Files */ = {
@@ -146,10 +150,10 @@
 			path = "../Target Support Files/AlipaySDK-iOS";
 			sourceTree = "<group>";
 		};
-		662738A58641316BC1DBA29C61DD362C /* Frameworks */ = {
+		892D0A32BE042BAC50A37B2048809B10 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6DCD9C8F14D55664FF3F0119757F0DAD /* libWeChatSDK.a */,
+				34D875EFDACC3D970F29F0C59BD3217A /* libWeChatSDK.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -162,17 +166,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C14DA2673A6ECC44239F6810CE8E63D2 /* WechatOpenSDK */ = {
+		B09FCBE7522D511E70A13DEEA3D6C0AF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				82CFB8DE3FEB0FE1259EE3E8206CE3FF /* WechatAuthSDK.h */,
-				6AAB7DD93083ECAAE8244975D87A88EA /* WXApi.h */,
-				18ACF3C3934CA5337AE90897445CB0E9 /* WXApiObject.h */,
-				662738A58641316BC1DBA29C61DD362C /* Frameworks */,
-				0A07A9D68538B1FE7CBCFBB25C67DF7A /* Support Files */,
+				0B9FBC4DAFED6853DD967EA863F6D139 /* WechatOpenSDK.xcconfig */,
 			);
-			name = WechatOpenSDK;
-			path = WechatOpenSDK;
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -248,6 +248,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = AEC20C1AA8D40FD12FA09A6DFA68D071 /* Products */;
@@ -288,13 +289,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		13DA55DF05DC3D045717735225E8BCB2 /* Release */ = {
+		2592D70F4919E1A39690DAB86B593A00 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC094A8FA0F00130B547A8EE29A890B9 /* WechatOpenSDK.xcconfig */;
+			baseConfigurationReference = 0B9FBC4DAFED6853DD967EA863F6D139 /* WechatOpenSDK.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,6 +387,22 @@
 			};
 			name = Debug;
 		};
+		6774F28FD1EDE95AD481A20B2215BB5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B9FBC4DAFED6853DD967EA863F6D139 /* WechatOpenSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		7B22BE20FAC8EDE6D0D17E31092D5EB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB63B532C08356AB984FB34D22FBF7AB /* AlipaySDK-iOS.xcconfig */;
@@ -466,22 +483,6 @@
 			};
 			name = Debug;
 		};
-		833656619A820ACCC7513609B6635374 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC094A8FA0F00130B547A8EE29A890B9 /* WechatOpenSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		AD17C3D8770D18028D59D76A2D3B5244 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB63B532C08356AB984FB34D22FBF7AB /* AlipaySDK-iOS.xcconfig */;
@@ -545,8 +546,8 @@
 		4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				833656619A820ACCC7513609B6635374 /* Debug */,
-				13DA55DF05DC3D045717735225E8BCB2 /* Release */,
+				6774F28FD1EDE95AD481A20B2215BB5F /* Debug */,
+				2592D70F4919E1A39690DAB86B593A00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

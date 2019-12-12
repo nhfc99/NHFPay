@@ -20,6 +20,8 @@ typedef void(^WechatObjectResult)(BOOL success, NSString *errorMsg);
 
 - (void)initRegisterApp:(NSString *)appid;
 
+- (void)initRegisterApp:(NSString *)appid universalLink:(NSString *)universalLink;
+
 - (void)handleOpenURL:(NSURL *)url;
 
 - (void)startPay:(WxPay *)wxPay

@@ -26,7 +26,11 @@ static WechatObject *object = nil;
 }
 
 - (void)initRegisterApp:(NSString *)appid {
-    [WXApi registerApp:appid];
+    [WXApi registerApp:appid universalLink:@""];
+}
+
+- (void)initRegisterApp:(NSString *)appid universalLink:(NSString *)universalLink {
+    [WXApi registerApp:appid universalLink:universalLink];
 }
 
 - (void)handleOpenURL:(NSURL *)url {
@@ -43,7 +47,9 @@ static WechatObject *object = nil;
     request.nonceStr= wxPay.noncestr;
     request.timeStamp= [wxPay.timestamp intValue];
     request.sign= wxPay.sign;
-    [WXApi sendReq:request];
+    [WXApi sendReq:request completion:^(BOOL success) {
+        
+    }];
 }
 
 #pragma mark - WXApiDelegate
