@@ -1,5 +1,5 @@
 PODS:
-  - AlipaySDK-iOS (15.5.9)
+  - AlipaySDK-iOS (15.6.8)
   - WechatOpenSDK (1.8.6)
 
 DEPENDENCIES:
@@ -12,7 +12,7 @@ SPEC REPOS:
     - WechatOpenSDK
 
 SPEC CHECKSUMS:
-  AlipaySDK-iOS: 1c5283b30977a24acecc0114662697f7dc78f618
+  AlipaySDK-iOS: 703a55774a37f412410ab04af96c011b91ec58cb
   WechatOpenSDK: 368ae03b72ee3ea1328c4f11326fbb5d2721d118
 
 PODFILE CHECKSUM: ff3e49a135694d451bcddea423fcc81a8147adb0

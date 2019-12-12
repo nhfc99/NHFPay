@@ -306,6 +306,22 @@
 			};
 			name = Release;
 		};
+		3EDB01CBD3BE7EB736CD267394B4160F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB63B532C08356AB984FB34D22FBF7AB /* AlipaySDK-iOS.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -403,22 +419,6 @@
 			};
 			name = Debug;
 		};
-		7B22BE20FAC8EDE6D0D17E31092D5EB6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB63B532C08356AB984FB34D22FBF7AB /* AlipaySDK-iOS.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -483,13 +483,13 @@
 			};
 			name = Debug;
 		};
-		AD17C3D8770D18028D59D76A2D3B5244 /* Release */ = {
+		AE6A3C63D2B496E6CEB67C7704F6E8DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB63B532C08356AB984FB34D22FBF7AB /* AlipaySDK-iOS.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -537,8 +537,8 @@
 		48CE3FED3E2D19C4363505B9F04916C7 /* Build configuration list for PBXAggregateTarget "AlipaySDK-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7B22BE20FAC8EDE6D0D17E31092D5EB6 /* Debug */,
-				AD17C3D8770D18028D59D76A2D3B5244 /* Release */,
+				3EDB01CBD3BE7EB736CD267394B4160F /* Debug */,
+				AE6A3C63D2B496E6CEB67C7704F6E8DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
